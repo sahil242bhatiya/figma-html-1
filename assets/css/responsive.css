@@ -4,10 +4,18 @@ html, body{
 }
 
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-    #mapConatiner{
-        display: none;
+@media screen and (min-width: 1025px) {
+    .contact-us-main{
+        width: 90vw;
+        margin-inline: auto;
     }
+    .contact-us-extra{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
     .features-card-container{
         width: 90vw;
         margin-inline: auto;
