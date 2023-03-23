@@ -1,7 +1,9 @@
 :root{
     --primary-color: rgb(32, 145, 249);
+    --primary-color-07: rgba(32, 145, 249, 0.7);
     --primary-color-dark: rgb(37, 43, 67);
     --primary-color-dark-05: rgba(37, 43, 67, 0.5);
+    --primary-color-dark-07: rgba(37, 43, 67, 0.7);
     --background-color: #ffffff;
     --gray-color: #F4F4F4;
     --gray-color-dark: #E8E8E8;
@@ -14,6 +16,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     border: 0;
+    scroll-behavior: smooth;
+    transition: all .5s;
+    user-select: none;
 }
 
 /* General Classes :: Start */
@@ -158,11 +163,67 @@ input, textarea{
 
 /*--------------------------------------------------------------------------------------*/
 
+/* Navbar :: Start */
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 80vw;
+    margin-inline: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: calc(var(--base-border-radius) * 8);
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a >img{
+    height: 1.5rem;
+}
+
+#nav-logo{
+    height: 3rem;
+    position: relative;
+    transform: translateX(-90%);
+}
+
+.nav-scrolled{
+    position: fixed;
+    background: var(--primary-color-dark-07);
+    backdrop-filter: blur(60px);
+    margin-top: 10px;
+}
+
+.toggle-nav{
+    display: none;
+}
+
+/* Navbar :: End */
+
+/*--------------------------------------------------------------------------------------*/
+
 /* Hero Section :: Start */
 
 .hero-section{
     background: url(../images/general/hero-bg.jpg) no-repeat center center/cover;
-    height: 100vh;
+    height: 110vh;
     position: relative;
     overflow: hidden;
 }

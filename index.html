@@ -15,8 +15,50 @@
 </head>
 <body>
 
+<nav id="nav">
+    <ul>
+        <li>
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#partners">Partners</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+    </ul>
+    <img src="assets/images/logo.png" alt="logo" id="nav-logo">
+    <ul class="social-media-list">
+        <li>
+            <a>
+                <img src="assets/images/svg/twitter-white.svg" alt="twitter">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="assets/images/svg/facebook-white.svg" alt="facebook">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="assets/images/svg/linkedin-white.svg" alt="linkedIn">
+            </a>
+        </li>
+    </ul>
+    <button class="toggle-nav" onclick="toggleNav(this)">
+        <img src="assets/images/svg/menu-white.svg" alt="menu">
+    </button>
+</nav>
+
+
 <!-- Hero Section :: Start -->
-<section class="hero-section">
+<section class="hero-section" id="home">
     <div class="hero-content-container">
         <h1 class="hero-section-heading" data-aos="zoom-out">
             The best products start with figma
@@ -24,7 +66,8 @@
         <p class="hero-section-para" data-aos="zoom-in-down">
             Most Calenders are designed for teams. Slate is designed for freelancers
         </p>
-        <button class="btn-primary" data-aos="zoom-out-up" data-aos-delay="400" data-aos-anchor-placement="bottom-bottom">
+        <button class="btn-primary" data-aos="zoom-out-up" data-aos-delay="400"
+                data-aos-anchor-placement="bottom-bottom">
             Try For Free
         </button>
     </div>
@@ -33,7 +76,7 @@
 
 
 <!-- Features Section :: Start -->
-<section class="features-section">
+<section class="features-section" id="features">
 
     <!-- Features Heading :: Start -->
     <div>
@@ -72,7 +115,7 @@
                 <h3 class="features-card-heading" data-aos="fade-in-down">
                     Design with real data
                 </h3>
-                <p class="features-card-text" data-aos="zoom-out-down" data-aos-delay="150" >
+                <p class="features-card-text" data-aos="zoom-out-down" data-aos-delay="150">
                     slate helps you see how many more days you need to work to reach your financial goals.
                 </p>
             </div>
@@ -85,7 +128,7 @@
                 <h3 class="features-card-heading" data-aos="fade-in-down">
                     Fastest way to take action
                 </h3>
-                <p class="features-card-text" data-aos="zoom-out-down" data-aos-delay="150" >
+                <p class="features-card-text" data-aos="zoom-out-down" data-aos-delay="150">
                     slate helps you see how many more days you need to work to reach your financial goals.
                 </p>
             </div>
@@ -95,7 +138,7 @@
 
     <div class="video-player-container">
         <img data-aos="zoom-out-up" src="assets/images/general/screen.jpg" loading="lazy" alt="video-player">
-        <button class="round-button-primary" >
+        <button class="round-button-primary">
         </button>
     </div>
 
@@ -123,7 +166,8 @@
     <!-- Laptop 2 Col :: Start -->
     <div class="features-extra extra--2">
         <div class="img-container">
-            <img data-aos="zoom-out-up" src="assets/images/general/undraw_newsletter_vovu.jpg" loading="lazy" alt="icon3">
+            <img data-aos="zoom-out-up" src="assets/images/general/undraw_newsletter_vovu.jpg" loading="lazy"
+                 alt="icon3">
         </div>
         <div class="features-extra-content">
             <h5 class="mb-1 fw-800" data-aos="zoom-out-right">
@@ -138,7 +182,8 @@
             <p class="mb-1" data-aos="zoom-out-right" data-aos-delay="300">
                 Available exclusivery on Figmaland
             </p>
-            <div class="d-flex flex-row justify-content-space-between mt-2-5" data-aos="zoom-out-down" data-aos-delay="200">
+            <div class="d-flex flex-row justify-content-space-between mt-2-5" data-aos="zoom-out-down"
+                 data-aos-delay="200">
                 <input type="email" placeholder="Your Email">
                 <button class="btn-primary mt-0">
                     Subscribe
@@ -154,7 +199,7 @@
 
 
 <!-- Partner Section :: Start -->
-<section class="partner-section">
+<section class="partner-section" id="partners">
     <!-- partner section heading :: Start -->
     <div class="partner-section-content">
         <h2 class="sub-heading-text" data-aos="zoom-out-down">
@@ -170,7 +215,7 @@
     <!-- partner section heading :: End -->
     <div class="d-flex mt-2-5 flex-wrap partners-card-container mb-1">
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -179,7 +224,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -188,7 +233,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -197,7 +242,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -206,7 +251,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -215,7 +260,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -224,7 +269,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -233,7 +278,7 @@
         <!-- partner card :: End -->
 
         <!-- partner card :: Start -->
-        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out" >
+        <div class="d-flex flex-column partner-card d-small-none" data-aos="zoom-out">
             <div class="mb-1">
                 Client Name
             </div>
@@ -241,7 +286,7 @@
         </div>
         <!-- partner card :: End -->
     </div>
-    <button class="btn-primary mt-2-5" data-aos="zoom-out" >
+    <button class="btn-primary mt-2-5" data-aos="zoom-out">
         Try For Free
     </button>
 </section>
@@ -267,7 +312,7 @@
             <div class="testimonial-card-client">
                 <img data-aos="zoom-out-up" src="assets/images/avatars/man.jpg" loading="lazy" alt="man"/>
                 <div data-aos="zoom-in">
-                    <div class="testimonial-card-client-name" >
+                    <div class="testimonial-card-client-name">
                         Organize across
                     </div>
                     <div class="testimonial-card-client-designation">
@@ -286,7 +331,7 @@
 
 
 <!-- pricing section :: Start -->
-<section class="pricing-section">
+<section class="pricing-section" id="pricing">
     <!-- pricing section heading :: Start -->
     <div class="pricing-section-content">
         <h2 class="sub-heading-text" data-aos="zoom-out">
@@ -413,7 +458,7 @@
 <!-- Price Section :; End -->
 
 <!-- contact us :: Start -->
-<section class="contact-us-section">
+<section class="contact-us-section" id="contact">
     <div class="contact-us-content">
         <h2 class="sub-heading-text" data-aos="fade-in-up">
             Contact Us
@@ -430,10 +475,10 @@
             <h4 class="mb-3" data-aos="zoom-out">
                 Contact Us
             </h4>
-            <input type="text" placeholder="Your Name"  data-aos="zoom-in-down"/>
-            <input type="email" placeholder="Your Email"  data-aos="zoom-in-down"/>
-            <textarea placeholder="Your Message" rows="5"  data-aos="zoom-in-down"></textarea>
-            <button class="btn-primary mt-2-5 fw-600"  data-aos="zoom-in-down">
+            <input type="text" placeholder="Your Name" data-aos="zoom-in-down"/>
+            <input type="email" placeholder="Your Email" data-aos="zoom-in-down"/>
+            <textarea placeholder="Your Message" rows="5" data-aos="zoom-in-down"></textarea>
+            <button class="btn-primary mt-2-5 fw-600" data-aos="zoom-in-down">
                 Send
             </button>
         </div>
@@ -459,8 +504,9 @@
                 </div>
             </div>
             <div class="contact-us-map d-small-none" id="mapConatiner" data-aos="zoom-out">
-                <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
-                        src="https://www.google.com/maps/embed/v1/view?zoom=12&center=23.5880%2C72.3693&key=AIzaSyCcPON0Eaoue8y_3uAsKKkk7kUx5MIS5i4"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d228.53377325078765!2d72.37453439123274!3d23.58494568000265!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c4183b9142409%3A0xe76484e374016937!2s3%2F42-432%2C%20Suramya%20Park%20Society%2C%20Mehsana%2C%20Gujarat%20384001!5e0!3m2!1sen!2sin!4v1679550920144!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="contact-us-social-media-container" data-aos="zoom-out-down">
                 <img src="assets/images/svg/ant-design_twitter-outlined.svg" alt="twitter"/>
@@ -541,6 +587,40 @@
         disable: '',
         easing: 'cubic-bezier(.21,.23,.46,1.43)',
     });
+
+    const nav = document.querySelector('#nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+            nav.classList.add('nav-scrolled');
+        } else {
+            nav.classList.remove('nav-scrolled');
+        }
+    });
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    function toggleNav(event) {
+        if (innerWidth <= 1300) {
+            nav.classList.toggle('active');
+            if (event.target.classList.contains('nav-link')) {
+                nav.classList.remove('active');
+            }
+        }
+    }
+
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(navLink => {
+        navLink.addEventListener('click', toggleNav);
+    });
+
+    function toggleNavOnResize() {
+        if (innerWidth > 1300) {
+            nav.classList.remove('active');
+        }
+    }
+
+    window.addEventListener('resize', toggleNavOnResize);
+
 </script>
 <!--script :: End -->
 
