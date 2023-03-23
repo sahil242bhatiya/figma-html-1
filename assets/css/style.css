@@ -68,7 +68,13 @@
     transition: all .3s ease-in-out;
 }
 
-mt-0{
+.round-button-primary:hover {
+    background-color: var(--primary-color-dark);
+    height: 6rem;
+    box-shadow: 0 20px 100px 20px var(--primary-color-dark-05);
+}
+
+.mt-0{
     margin-top: 0 !important;
 }
 
@@ -531,7 +537,7 @@ input, textarea{
     z-index: 1;
     color: var(--primary-color-dark);
     border-radius: calc(var(--base-border-radius) * 3);
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
     margin-inline: 1rem;
 }
 
