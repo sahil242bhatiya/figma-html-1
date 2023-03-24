@@ -17,13 +17,15 @@ html, body {
         border-radius: 0;
         text-align: center;
         z-index: 100;
+        top: -2px;
+        padding: 0;
     }
     nav > ul {
         display: none;
     }
 
     #nav-logo {
-        position: fixed;
+        position: absolute;
         top: 10px;
         left: 12px;
         transform: none;
@@ -46,12 +48,12 @@ html, body {
     nav.active #nav-logo,
     .nav-scrolled #nav-logo {
         background: var(--primary-color-dark);
-        border: 1px solid rgba(255,255,255,.2);
+        border-color: rgba(255,255,255,.2);
     }
 
     .toggle-nav {
         display: block;
-        position: fixed;
+        position: absolute;
         top: 10px;
         right: 20px;
         z-index: 100;
@@ -59,7 +61,6 @@ html, body {
         background: transparent;
         height: 53px;
         width: 53px;
-        padding: 4px;
         border-radius: calc(var(--base-border-radius) * 5);
         border: 1px solid rgba(255,255,255,0);
     }
@@ -67,7 +68,7 @@ html, body {
     nav.active .toggle-nav,
     .nav-scrolled .toggle-nav {
         background: var(--primary-color-dark);
-        border: 1px solid rgba(255,255,255,.2);
+        border-color: rgba(255,255,255,.2);
     }
 
     .nav-scrolled .toggle-nav img {
@@ -76,7 +77,8 @@ html, body {
 
     nav.active {
         height: 100vh;
-        padding: 10vh 0;
+        backdrop-filter: none;
+        top: -2px;
     }
 
     nav.active > ul {
