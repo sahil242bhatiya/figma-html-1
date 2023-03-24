@@ -6,8 +6,17 @@ html, body {
 @media screen and (max-width: 1300px) {
     nav {
         background: white !important;
+        backdrop-filter: blur(0);
         width: 100vw;
         height: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        border-radius: 0;
+        text-align: center;
+        z-index: 100;
     }
     nav > ul {
         display: none;
@@ -16,24 +25,28 @@ html, body {
     #nav-logo {
         position: fixed;
         top: 10px;
-        left: 20px;
+        left: 12px;
         transform: none;
         border-radius: calc(var(--base-border-radius) * 8);
+        padding: 6px 20px;
+        height: auto;
+        margin-top: 0;
+        border: 1px solid rgba(255,255,255,0);
+    }
+    #nav-logo img {
+        width: 120px;
     }
 
     .nav-scrolled {
         position: fixed;
         margin-top: 0;
         width: 100vw;
-
-
     }
 
     nav.active #nav-logo,
     .nav-scrolled #nav-logo {
-        background: var(--primary-color-dark-07);
-        backdrop-filter: blur(60px);
-        padding: 10px 20px;
+        background: var(--primary-color-dark);
+        border: 1px solid rgba(255,255,255,.2);
     }
 
     .toggle-nav {
@@ -44,14 +57,17 @@ html, body {
         z-index: 100;
         cursor: pointer;
         background: transparent;
+        height: 53px;
+        width: 53px;
         padding: 4px;
-        border-radius: calc(var(--base-border-radius) * 3);
+        border-radius: calc(var(--base-border-radius) * 5);
+        border: 1px solid rgba(255,255,255,0);
     }
 
     nav.active .toggle-nav,
     .nav-scrolled .toggle-nav {
-        background: var(--primary-color-dark-07);
-        backdrop-filter: blur(60px);
+        background: var(--primary-color-dark);
+        border: 1px solid rgba(255,255,255,.2);
     }
 
     .nav-scrolled .toggle-nav img {
@@ -59,17 +75,8 @@ html, body {
     }
 
     nav.active {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
         height: 100vh;
-        background: white;
-        border-radius: 0;
-        z-index: 100;
         padding: 10vh 0;
-        text-align: center;
     }
 
     nav.active > ul {
