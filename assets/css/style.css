@@ -54,7 +54,7 @@
     padding: 1rem 2.5rem;
     border-radius: calc(var(--base-border-radius) * 8);
     text-decoration: none;
-    transition: all .3s ease-in-out;
+    transition: all .5s !important;
 }
 
 .btn-primary:hover{
@@ -178,6 +178,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-radius: calc(var(--base-border-radius) * 8);
+    backdrop-filter: blur(0);
 }
 
 nav > ul{
@@ -201,7 +202,9 @@ nav > ul > li > a >img{
 #nav-logo{
     height: 3rem;
     position: relative;
-    transform: translateX(-90%);
+    transform: translateX(-9vw);
+    transition: all .5s;
+    margin-top: -12px;
 }
 
 .nav-scrolled{
@@ -209,10 +212,15 @@ nav > ul > li > a >img{
     background: var(--primary-color-dark-07);
     backdrop-filter: blur(60px);
     margin-top: 10px;
+    border: 1px solid rgba(255,255,255,.2);
 }
 
 .toggle-nav{
     display: none;
+}
+
+.hug-child{
+    width: min-content;
 }
 
 /* Navbar :: End */
@@ -600,6 +608,7 @@ nav > ul > li > a >img{
     border-radius: calc(var(--base-border-radius) * 3);
     box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
     margin-inline: 1rem;
+    overflow: hidden;
 }
 
 .contact-us-extra{

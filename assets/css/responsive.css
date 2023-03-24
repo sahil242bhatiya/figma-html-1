@@ -5,9 +5,10 @@ html, body {
 
 @media screen and (max-width: 1300px) {
     nav {
-        background: transparent;
+        background: white !important;
+        width: 100vw;
+        height: 0;
     }
-
     nav > ul {
         display: none;
     }
@@ -63,9 +64,6 @@ html, body {
         justify-content: center;
         align-items: center;
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
         height: 100vh;
         background: white;
         border-radius: 0;
