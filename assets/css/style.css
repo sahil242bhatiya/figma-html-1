@@ -216,8 +216,9 @@ nav > ul > li > a >img{
 
 #nav-logo{
     height: 3rem;
-    position: relative;
-    transform: translateX(-9vw);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     transition: all .5s;
     margin-top: -12px;
 }
