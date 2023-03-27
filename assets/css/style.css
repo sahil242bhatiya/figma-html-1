@@ -221,6 +221,27 @@ nav > ul > li > a >img{
     display: none;
 }
 
+.toggle-nav .line{
+    display: block;
+    position: relative;
+    width: 1.5rem !important;
+    height: 2px !important;
+    background: white;
+    margin: 15px 12px 3px 3px;
+    float: end;
+    transition: all .5s;
+    border-radius: 2px;
+}
+
+.toggle-nav .line.line-2{
+    width: 1rem !important;
+    margin: 3px 12px 3px 3px;
+}
+.toggle-nav .line.line-3{
+    width: .5rem !important;
+    margin: 3px 12px 3px 3px;
+}
+
 .hug-child{
     width: min-content;
 }

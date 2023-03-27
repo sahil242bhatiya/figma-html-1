@@ -53,7 +53,10 @@ html, body {
     }
 
     .toggle-nav {
-        display: block;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        flex-direction: column;
         position: absolute;
         top: 10px;
         right: 15px;
@@ -71,6 +74,20 @@ html, body {
     .nav-scrolled .toggle-nav {
         background: var(--primary-color-dark);
         border-color: rgba(255,255,255,.2);
+    }
+
+    nav.active .toggle-nav .line{
+        transform: rotate(45deg) translate(8px, 5px);
+        width: 2rem !important;
+    }
+
+    nav.active .toggle-nav .line.line-2{
+        transform: rotate(-45deg) translate(2px, 3px);
+        width: 2rem !important;
+    }
+
+    nav.active .toggle-nav .line.line-3{
+        opacity: 0;
     }
 
     .nav-scrolled .toggle-nav img {
