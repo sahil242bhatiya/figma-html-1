@@ -83,6 +83,7 @@ html, body {
 
     nav.active .toggle-nav .line.line-2{
         transform: rotate(-45deg) translate(1px, 3px);
+        opacity: .7;
         width: 30px !important;
     }
 
