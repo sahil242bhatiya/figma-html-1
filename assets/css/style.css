@@ -716,6 +716,7 @@ nav > ul > li > a >img{
     opacity: .5;
     transition: all .3s ease-in-out;
     font-size: .9rem;
+    cursor: pointer;
 }
 
 .footer-section >div >ul >li:hover{
