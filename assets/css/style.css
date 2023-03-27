@@ -746,6 +746,16 @@ nav > ul > li > a >img{
     opacity: 1;
 }
 
+.footer-contact{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    width: min-content;
+}
+
 .footer-section .info-card{
     display: flex;
     justify-content: center;
