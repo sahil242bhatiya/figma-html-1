@@ -1,8 +1,6 @@
-@keyframes dark-primary-to-dark-transparent {
-    0% {
-        background: var(--gray-color-dark);
-    }
-    100% {
-        background: var(--primary-color-dark-07);
-    }
+/*
+
+*{
+    border: 1px solid red;
 }
+*/
