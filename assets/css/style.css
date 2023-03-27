@@ -261,10 +261,12 @@ nav > ul > li > a >img{
 }
 
 .hero-content-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: var(--background-color);
 }
