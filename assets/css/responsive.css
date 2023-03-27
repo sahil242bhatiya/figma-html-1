@@ -78,16 +78,17 @@ html, body {
 
     nav.active .toggle-nav .line{
         transform: rotate(45deg) translate(8px, 5px);
-        width: 2rem !important;
+        width: 30px !important;
     }
 
     nav.active .toggle-nav .line.line-2{
-        transform: rotate(-45deg) translate(2px, 3px);
-        width: 2rem !important;
+        transform: rotate(-45deg) translate(1px, 3px);
+        width: 30px !important;
     }
 
     nav.active .toggle-nav .line.line-3{
         opacity: 0;
+        width: 0 !important;
     }
 
     .nav-scrolled .toggle-nav img {
