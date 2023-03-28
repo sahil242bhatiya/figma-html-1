@@ -20,7 +20,7 @@
     font-family: Arial, Helvetica, sans-serif;
     border: 0;
     scroll-behavior: smooth;
-    transition: all .5s;
+    transition: all .3s;
     user-select: none;
 }
 
@@ -602,6 +602,20 @@ nav > ul > li > a >img{
     border-radius: calc(var(--base-border-radius) * 3);
     margin-inline: 1rem;
     transition: all .3s ease-in-out !important;
+}
+
+.pricing-card *{
+    transition: color .3s ease-in-out !important;
+}
+
+.pricing-card.primary-card:hover{
+    background: white;
+    color: var(--primary-color-dark);
+}
+
+.pricing-card.primary-card:hover button{
+    background: var(--primary-color-dark) !important;
+    color: white !important;
 }
 
 .pricing-card:hover{
