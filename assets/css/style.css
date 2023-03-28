@@ -950,6 +950,7 @@ nav > ul > li > a >img{
 .nav-link{
     position: relative;
 }
+
 .nav-link::before{
     content: "";
     position: absolute;
@@ -964,6 +965,7 @@ nav > ul > li > a >img{
     transition: all .5s ease-in-out;
 }
 
+.nav-link:hover::before,
 .nav-link.active::before{
     width: 100%;
 }
