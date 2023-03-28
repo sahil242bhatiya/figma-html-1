@@ -523,3 +523,18 @@ html, body {
         min-width: 200px !important;
     }
 }
+
+@media screen and (max-width: 1002px) and (min-width:933px){
+    .pricing-card{
+        width: 280px !important;
+    }
+}
+
+@media screen and (max-width: 933px) and (min-width:763px){
+    .pricing-cards-container{
+        flex-direction: column;
+    }
+    .pricing-card{
+        width: 350px !important;
+    }
+}
