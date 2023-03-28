@@ -304,6 +304,13 @@ nav > ul > li > a >img{
     width: min-content;
 }
 
+nav .social-media-list a{
+    opacity: .7;
+}
+
+nav .social-media-list a:hover{
+    opacity: 1;
+}
 
 /* Navbar :: End */
 
