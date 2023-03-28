@@ -733,9 +733,12 @@ nav .social-media-list a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
 }
 
 .contact-us-card{
+    min-width: 30%;
     max-width: 453px;
     padding: 2rem;
     border: 1px solid var(--gray-color-dark);
@@ -745,6 +748,7 @@ nav .social-media-list a:hover{
     border-radius: calc(var(--base-border-radius) * 3);
     box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
     overflow: hidden;
+    margin-left: 20px;
 }
 
 .contact-us-extra{
@@ -758,23 +762,28 @@ nav .social-media-list a:hover{
 .contact-us-card textarea{
     width: 100%;
     margin-bottom: 45px;
+    resize: none;
 }
 
 
 .contact-us-details-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
 
 .contact-us-detail-card{
-    width: 25%
+    width: 25%;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--primary-color-dark);
 }
 
 .contact-us-detail-card img{
     margin-bottom: 1rem;
+    min-height: 34px;
 }
 
 .contact-us-map{

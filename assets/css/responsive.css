@@ -26,6 +26,13 @@ html, body {
 }
 
 @media screen and (max-width: 1300px) {
+    .contact-us-social-media-container{
+        margin-bottom: 40px !important;
+    }
+
+    .contact-us-main{
+        margin-top: 40px;
+    }
     .features-extra{
         margin-top: 100px;
     }
@@ -427,6 +434,9 @@ html, body {
 
 
 @media screen and (max-width: 699px){
+    .contact-us-detail-card p{
+        text-align: left;
+    }
     .modal-container{
         width: 90vw;
     }
@@ -457,6 +467,7 @@ html, body {
     }
 
     .contact-us-social-media-container{
+        margin-top: 0;
         margin-bottom: 20px;
     }
     .contact-us-card{
@@ -465,7 +476,7 @@ html, body {
 }
 @media screen and (min-width: 780px) {
     .footer-section{
-        padding-bottom: 80px !important;
+        padding-bottom: 55px !important;
     }
     .footer-section-container{
         gap: 4px !important;
