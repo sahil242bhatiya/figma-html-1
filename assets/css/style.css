@@ -880,7 +880,6 @@ nav > ul > li > a >img{
     box-shadow: 0 20px 100px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     position: relative;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -888,6 +887,8 @@ nav > ul > li > a >img{
 }
 
 .modal-content{
+    overflow: hidden;
+    border-radius: calc(var(--base-border-radius) * 3);
     height: 100%;
     width: 100%;
 }
@@ -904,8 +905,8 @@ nav > ul > li > a >img{
     width: 36px;
     border-radius: calc(var(--base-border-radius) * 3);
     position: absolute;
-    right: 4px;
-    top: 4px;
+    right: -10px;
+    top: -10px;
     cursor: pointer;
 }
 
