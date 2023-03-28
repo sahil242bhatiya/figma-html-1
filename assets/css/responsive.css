@@ -73,13 +73,13 @@ html, body {
         position: fixed;
         margin-top: 0;
         width: 100vw;
-        height: 0;
+        background: var(--primary-color-dark) !important;
+        height: 80px;
     }
 
     nav.active #nav-logo,
     .nav-scrolled #nav-logo {
         background: var(--primary-color-dark);
-        border-color: rgba(255,255,255,.2);
     }
 
     .toggle-nav {
@@ -138,7 +138,7 @@ html, body {
     }
 
     nav.active > ul > li > a {
-        color: var(--primary-color-dark);
+        color: white;
     }
 
     nav.active .social-media-list {
