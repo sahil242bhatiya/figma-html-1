@@ -604,17 +604,13 @@ nav > ul > li > a >img{
     transition: all .3s ease-in-out !important;
 }
 
-.pricing-card *{
-    transition: color .3s ease-in-out !important;
-}
-
 .pricing-card.primary-card:hover{
-    background: white;
-    color: var(--primary-color-dark);
+    background: var(--primary-color-dark);
+    box-shadow: 0 30px 90px -10px rgba(0,0,0,.7), 0 30px 150px -10px rgba(0,0,0,.2);
 }
 
-.pricing-card.primary-card:hover button{
-    background: var(--primary-color-dark) !important;
+.pricing-card.primary-card:hover .btn-primary{
+    background: var(--primary-color) !important;
     color: white !important;
 }
 
