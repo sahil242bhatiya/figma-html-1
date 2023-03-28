@@ -609,7 +609,8 @@ nav .social-media-list a:hover{
 
 .pricing-section{
     margin-top: 100px;
-    padding: 5rem 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align: center;
     background: var(--primary-color-dark);
     color: white;
@@ -629,7 +630,7 @@ nav .social-media-list a:hover{
     align-items: center;
     flex-wrap: wrap;
     margin-top: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .pricing-card{
     background: white;
