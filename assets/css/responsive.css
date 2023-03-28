@@ -557,3 +557,21 @@ html, body {
         margin-left: 0 !important;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .features-extra .feature-img-container{
+        margin-top: 26px;
+    }
+    .feature-img-container{
+        width: 90vw;
+    }
+    .feature-img-container img{
+        width: 100% !important;
+    }
+    .features-extra.extra--2{
+        flex-direction: column-reverse;
+    }
+    .features-extra.extra--2 .feature-img-container{
+        width: 80vw;
+    }
+}
