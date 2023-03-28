@@ -19,7 +19,7 @@
 <nav id="nav" class="container">
     <ul id="navLinks" class="nav-links">
         <li>
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link active" href="#home">Home</a>
         </li>
         <li>
             <a class="nav-link" href="#features">Features</a>
@@ -73,9 +73,15 @@
         <p class="hero-section-para" data-aos="zoom-in-down">
             Most Calenders are designed for teams. <span class="d-small-none">Slate is designed for freelancers </span>
         </p>
-        <button class="btn-primary" data-aos="zoom-out-up" data-aos-delay="400"
+        <button class="btn-primary svg-btn" data-aos="zoom-out-up" data-aos-delay="400"
                 data-aos-anchor-placement="bottom-bottom">
             Try For Free
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4297 5.93018L20.4997 12.0002L14.4297 18.0702" stroke="#fff" stroke-width="1.5"
+                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path class="svg-arrow-dash" d="M3.5 12H20.33" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </button>
     </div>
 </section>
@@ -159,8 +165,14 @@
                 <p class="features-extra-text" data-aos="zoom-out-left" data-aos-delay="200">
                     Most Calenders are designed for teams. Slate is designed for freelancers
                 </p>
-                <button class="btn-primary" data-aos="zoom-out-down" data-aos-delay="200">
+                <button class="btn-primary svg-btn" data-aos="zoom-out-down" data-aos-delay="200">
                     Try For Free
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.4297 5.93018L20.4997 12.0002L14.4297 18.0702" stroke="#fff" stroke-width="1.5"
+                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="svg-arrow-dash" d="M3.5 12H20.33" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </button>
             </div>
             <div class="feature-img-container">
@@ -294,9 +306,18 @@
             </div>
             <!-- partner card :: End -->
         </div>
-        <button class="btn-primary mt-2-5" data-aos="zoom-out">
-            Try For Free
-        </button>
+        <div class="d-flex">
+            <button class="btn-primary mt-2-5 svg-btn" data-aos="zoom-out">
+                Try For Free
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.4297 5.93018L20.4997 12.0002L14.4297 18.0702" stroke="#fff" stroke-width="1.5"
+                          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path class="svg-arrow-dash" d="M3.5 12H20.33" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+
     </div>
 </section>
 <!-- Partner Section :: End -->
@@ -671,6 +692,7 @@
     function ShowVideoModal() {
         document.querySelector('#videoModal').classList.add('active');
     }
+
     function HideVideoModal() {
         document.querySelector('#videoModal').classList.remove('active');
     }

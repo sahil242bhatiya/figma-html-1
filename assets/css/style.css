@@ -54,14 +54,42 @@
     cursor: pointer;
     background-color: var(--primary-color);
     color: var(--background-color);
-    padding: 1rem 2.5rem;
+    padding: 1rem 40px;
     border-radius: calc(var(--base-border-radius) * 8);
     text-decoration: none;
-    transition: all .5s !important;
+    transition: all .5s ease-in-out !important;
+}
+
+.svg-btn{
+    display: flex;
+    align-items: center;
 }
 
 .btn-primary:hover{
     background-color: var(--primary-color-dark);
+}
+
+.svg-btn:hover{
+    padding-right: 28px;
+}
+
+.btn-primary svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 6px;
+    transition: all .5s ease-in-out !important;
+}
+
+.btn-primary svg .svg-arrow-dash{
+    opacity: 0;
+}
+
+.btn-primary:hover svg{
+    margin-left: 18px;
+}
+
+.btn-primary:hover svg .svg-arrow-dash{
+    opacity: 1;
 }
 
 .round-button-primary{
