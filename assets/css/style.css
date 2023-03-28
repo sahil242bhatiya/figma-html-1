@@ -631,11 +631,13 @@ nav > ul > li > a >img{
     border-radius: calc(var(--base-border-radius) * 3);
     margin-inline: 1rem;
     transition: all .3s ease-in-out !important;
+    z-index: 1;
 }
 
 .pricing-card.primary-card:hover{
+    z-index: 0;
     background: var(--primary-color-dark);
-    box-shadow: 0 30px 90px -10px rgba(0,0,0,.7), 0 30px 150px -10px rgba(0,0,0,.2);
+    box-shadow: 0 30px 10px -50px rgba(0,0,0,.2);
 }
 
 .pricing-card.primary-card:hover .btn-primary{
