@@ -51,6 +51,7 @@ html, body {
         z-index: 100;
         top: -2px;
         padding: 0;
+        tramsition: all .5s, background 0s !important;
     }
     nav > ul {
         display: none;
@@ -103,9 +104,10 @@ html, body {
         transition: all .5s !important;
     }
 
+    nav.active,
     nav.active .toggle-nav,
     .nav-scrolled .toggle-nav {
-        background: var(--primary-color-dark);
+        background: var(--primary-color-dark) !important;
         border-color: rgba(255,255,255,.2);
     }
 
