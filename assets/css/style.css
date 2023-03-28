@@ -761,7 +761,14 @@ nav > ul > li > a >img{
     color: white;
     display: flex;
     justify-content: center;
+    align-items: start;
     flex-wrap: wrap;
+}
+
+.footer-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .footer-section .footer-links-container{
     min-width: 200px;
