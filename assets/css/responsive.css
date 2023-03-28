@@ -551,3 +551,9 @@ html, body {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 699px) {
+    .contact-us-card{
+        margin-left: 0 !important;
+    }
+}
