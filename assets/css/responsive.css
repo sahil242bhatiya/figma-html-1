@@ -147,7 +147,7 @@ html, body {
     }
     .hero-section-heading,
     .hero-section-para{
-        width: 90vw;
+        width: 100vw;
     }
     .d-small-none {
         display: none;

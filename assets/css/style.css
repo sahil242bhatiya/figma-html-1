@@ -356,14 +356,13 @@ nav > ul > li > a >img{
     margin: 1rem;
     padding: 2rem;
     border-radius: calc(var(--base-border-radius) * 8);
-    /*box-shadow: 0 20px 100px 10px var(--primary-color-dark-05);*/
     transition: all .3s ease-in-out;
     z-index: 1;
     color: var(--primary-color-dark);
 }
 
 .features-card:hover{
-    box-shadow: 0 50px 50px 0 var(--primary-color-dark-05);
+    box-shadow: 0 50px 50px 0 var(--primary-color-dark-008);
 }
 
 .features-card img{
@@ -602,6 +601,11 @@ nav > ul > li > a >img{
     padding: 2rem;
     border-radius: calc(var(--base-border-radius) * 3);
     margin-inline: 1rem;
+    transition: all .3s ease-in-out !important;
+}
+
+.pricing-card:hover{
+    box-shadow: 0 30px 80px -10px rgba(0,0,0,.5), 0 30px 150px -10px rgba(0,0,0,.2);
 }
 
 .pricing-card.primary-card{
@@ -816,6 +820,7 @@ nav > ul > li > a >img{
     justify-content: center;
     align-items: center;
     font-size: .9rem;
+    cursor: pointer;
 }
 
 .footer-section .info-card img{
