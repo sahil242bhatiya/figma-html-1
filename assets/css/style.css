@@ -505,7 +505,7 @@ nav > ul > li > a >img{
 
 .partners-card-container{
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     align-items: stretch !important;
     flex-wrap: wrap;
 }
@@ -771,6 +771,7 @@ nav > ul > li > a >img{
     display: flex;
     justify-content: center;
     align-items: start;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .footer-section .footer-links-container{
