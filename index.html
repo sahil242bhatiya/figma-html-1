@@ -145,7 +145,7 @@
 
         <div class="video-player-container">
             <img data-aos="zoom-out-up" src="assets/images/general/screen.jpg" loading="lazy" alt="video-player">
-            <button class="round-button-primary">
+            <button class="round-button-primary" onclick="ShowVideoModal()">
             </button>
         </div>
 
@@ -180,7 +180,7 @@
                 <h5 class="fw-800" data-aos="zoom-out-right">
                     At your fingertips
                 </h5>
-                <h2 class="features-extra-heading fs-3 mt-1 h2"  data-aos="zoom-out-right" data-aos-delay="200">
+                <h2 class="features-extra-heading fs-3 mt-1 h2" data-aos="zoom-out-right" data-aos-delay="200">
                     Lightning fast prototyping
                 </h2>
                 <p class="fw-600" style="margin-top: 15px" data-aos="zoom-out-right" data-aos-delay="300">
@@ -314,9 +314,11 @@
         <div class="testimonial-card-container">
             <!-- testimonial card :: Start -->
             <div class="testimonial-card">
-                <img data-aos="zoom-out-up" src="assets/images/companies/logos_ibm.jpg" loading="lazy" class="logo" alt="ibm"/>
+                <img data-aos="zoom-out-up" src="assets/images/companies/logos_ibm.jpg" loading="lazy" class="logo"
+                     alt="ibm"/>
                 <p class="testimonial-card-content lh-1-7" data-aos="zoom-in">
-                    Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan
+                    Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to
+                    plan
                     their schedule.
                 </p>
                 <div class="testimonial-card-client">
@@ -594,6 +596,22 @@
 <!-- footer :: End -->
 
 
+<!-- Modal :: Start -->
+<div id="videoModal" class="modal-backdrop" onclick="HideModal(this)">
+    <div class="modal-container">
+        <button id="closeButton" onclick="HideVideoModal()">
+            <img src="./assets/images/svg/close.svg" alt="close button"/>
+        </button>
+        <div class="modal-content">
+            <iframe src="https://www.youtube.com/embed/vVOS48rg00w" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<!-- Modal :: End -->
+
+
 <!-- script :: Start -->
 <script>
     AOS.init({
@@ -633,6 +651,18 @@
     }
 
     window.addEventListener('resize', toggleNavOnResize);
+
+    function ShowVideoModal() {
+        document.querySelector('#videoModal').classList.add('active');
+    }
+    function HideVideoModal() {
+        document.querySelector('#videoModal').classList.remove('active');
+    }
+
+    function HideModal(modal) {
+        modal.classList.remove('active');
+    }
+
 
 </script>
 <!--script :: End -->

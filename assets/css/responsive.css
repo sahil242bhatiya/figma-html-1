@@ -416,6 +416,10 @@ html, body {
 
 
 @media screen and (max-width: 699px){
+    .modal-container{
+        width: 90vw;
+    }
+
     .contact-us-main{
         flex-direction: column-reverse;
         justify-content: center;
