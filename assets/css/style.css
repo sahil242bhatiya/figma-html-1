@@ -508,7 +508,6 @@ nav > ul > li > a >img{
     justify-content: stretch;
     align-items: stretch !important;
     flex-wrap: wrap;
-    margin-inline: 8rem;
 }
 
 /* Partner Section :: End */
@@ -772,6 +771,7 @@ nav > ul > li > a >img{
     display: flex;
     justify-content: center;
     align-items: start;
+    gap: 20px;
 }
 .footer-section .footer-links-container{
     min-width: 200px;
