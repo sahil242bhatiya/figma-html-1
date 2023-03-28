@@ -167,6 +167,17 @@ input, textarea{
     width: 90% !important;
 }
 
+.h1{
+    font-size: 74px !important;
+    line-height: 84px !important;
+    letter-spacing: 0.2px !important;
+    font-weight: bold !important;
+}
+
+.h4{
+
+}
+
 
 
 /* General Classes :: End */
@@ -224,7 +235,7 @@ nav > ul > li > a >img{
     background: rgb(62, 65, 82);
     margin-top: 10px;
     border: 1px solid rgba(255,255,255,.2);
-    height: 80px;
+    height: 66px;
 }
 
 .toggle-nav{
@@ -255,6 +266,7 @@ nav > ul > li > a >img{
 .hug-child{
     width: min-content;
 }
+
 
 /* Navbar :: End */
 
@@ -398,7 +410,6 @@ nav > ul > li > a >img{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-inline: 5rem;
 }
 
 .features-extra .img-container img{
@@ -556,7 +567,6 @@ nav > ul > li > a >img{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-inline: 8rem;
     margin-top: 2.5rem;
 }
 .pricing-card{
@@ -648,7 +658,7 @@ nav > ul > li > a >img{
 }
 
 .contact-us-card{
-    width: 32%;
+    width: 453px;
     padding: 2rem;
     border: 1px solid var(--gray-color-dark);
     transition: all .3s ease-in-out;
@@ -662,16 +672,15 @@ nav > ul > li > a >img{
 
 .contact-us-extra{
     width: 65%;
-    padding: 1rem;
     transition: all .3s ease-in-out;
     z-index: 1;
     color: var(--primary-color-dark);
-    height: 160px;
+
 }
 .contact-us-card input,
 .contact-us-card textarea{
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 45px;
 }
 
 
@@ -680,6 +689,7 @@ nav > ul > li > a >img{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .contact-us-detail-card{
@@ -701,10 +711,10 @@ nav > ul > li > a >img{
 }
 .contact-us-social-media-container{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin-top: 50px;
 }
 
 .contact-us-social-media-container img{
