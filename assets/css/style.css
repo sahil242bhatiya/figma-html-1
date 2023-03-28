@@ -910,11 +910,32 @@ nav > ul > li > a >img{
     cursor: pointer;
 }
 
-
 .modal-container #closeButton img{
     height: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+.nav-link{
+    position: relative;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    border-radius: 5px;
+    z-index: 100;
+    opacity: .7;
+    transition: all .5s ease-in-out;
+}
+
+.nav-link.active::before{
+    width: 100%;
 }

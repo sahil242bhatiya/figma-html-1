@@ -26,6 +26,9 @@ html, body {
 }
 
 @media screen and (max-width: 1300px) {
+    .nav-link.active::before {
+        width: 0 !important;
+    }
     .h1{
         font-weight: normal !important;
         line-height: 60px !important;
