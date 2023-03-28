@@ -26,6 +26,9 @@ html, body {
 }
 
 @media screen and (max-width: 1300px) {
+    .pricing-card{
+        max-width: 350px;
+    }
     .nav-link.active::before {
         width: 0 !important;
     }

@@ -314,6 +314,7 @@ nav > ul > li > a >img{
 .hero-section{
     background: url(../images/general/hero-bg.jpg) no-repeat center center/cover;
     height: 100vh;
+    min-height: 700px;
     position: relative;
     overflow: hidden;
     background-position: bottom !important;
@@ -723,11 +724,10 @@ nav > ul > li > a >img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 2.5rem;
 }
 
 .contact-us-card{
-    width: 453px;
+    max-width: 453px;
     padding: 2rem;
     border: 1px solid var(--gray-color-dark);
     transition: all .3s ease-in-out;
@@ -735,7 +735,6 @@ nav > ul > li > a >img{
     color: var(--primary-color-dark);
     border-radius: calc(var(--base-border-radius) * 3);
     box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
-    margin-inline: 1rem;
     overflow: hidden;
 }
 
