@@ -387,7 +387,6 @@ html, body {
     }
 
     .footer-section > div {
-        width: 90vw;
         margin-inline: auto;
         margin-bottom: 4rem;
     }
@@ -487,7 +486,6 @@ html, body {
     .footer-section{
         padding: 4rem 0;
         display: flex;
-        flex-direction: column;
         text-align: center;
     }
 
@@ -509,6 +507,12 @@ html, body {
 @media screen and (max-width: 550px) {
     .footer-section > div {
         width: 100vw;
+    }
+    .footer-section-container{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
     .footer-section .footer-links-container{
         min-width: 100px !important;
