@@ -190,6 +190,19 @@ html, body {
 
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
+    .features-extra.extra--2 .img-container {
+        margin-bottom: 20px !important;
+    }
+    .features-extra-content{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .subscribe-inputs{
+        justify-content: center;
+    }
+    .features-extra-content > * {
+        text-align: center !important;
+    }
     .features-extra-content{
         align-items: center;
     }
@@ -237,6 +250,7 @@ html, body {
 
     .contact-us-main {
         margin-inline: auto;
+        flex-direction: row;
     }
 
     .contact-us-extra {
@@ -261,6 +275,12 @@ html, body {
 
 
 @media screen and (max-width: 768px) {
+    .features-extra.extra--2 .img-container {
+        margin-bottom: 20px !important;
+    }
+    .features-extra-content{
+        margin-bottom: 20px;
+    }
     .subscribe-inputs{
         justify-content: center;
     }
@@ -355,3 +375,70 @@ html, body {
 
 }
 
+
+@media screen and (max-width: 400px){
+    .hero-section-heading,
+    .hero-section-para{
+        width: 95vw !important;
+    }
+    .hero-section-heading{
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    .hero-section-para{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .contact-us-card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 700px){
+    .contact-us-card{
+        width: 50%;
+    }
+    .contact-us-extra{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 699px){
+    .contact-us-main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us-extra{
+        flex-direction: column-reverse;
+    }
+
+    .contact-us-details-container{
+        margin-bottom: 20px;
+        align-items: start ;
+    }
+
+    .contact-us-detail-card{
+        display: flex;
+        align-items: center;
+        flex-direction: row !important;
+        width: 100% !important;
+    }
+    .contact-us-detail-card img{
+        margin-right: 10px;
+    }
+
+    .contact-us-social-media-container{
+        margin-bottom: 20px;
+    }
+    .contact-us-card{
+        max-width: 90vw;
+    }
+}
