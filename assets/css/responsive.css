@@ -4,6 +4,7 @@ html, body {
 }
 
 @media screen and (max-width: 1439px) and (min-width: 1301px) {
+
     nav{
         height: 100px;
     }
@@ -25,6 +26,10 @@ html, body {
 }
 
 @media screen and (max-width: 1300px) {
+    .h1{
+        font-weight: normal !important;
+        line-height: 60px !important;
+    }
     nav {
         background: white !important;
         backdrop-filter: blur(0);
@@ -142,7 +147,7 @@ html, body {
     }
     .hero-section-heading,
     .hero-section-para{
-        width: 70vw;
+        width: 90vw;
     }
     .d-small-none {
         display: none;
@@ -291,8 +296,9 @@ html, body {
         align-items: center;
     }
     .hero-section .hero-section-heading {
-        font-size: 3rem !important;
-        width: 80vw;
+        font-size: 50px !important;
+        line-height: 60px !important;
+        width: 90vw;
     }
 
     .hero-section .hero-section-para {
