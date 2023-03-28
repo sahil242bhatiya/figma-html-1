@@ -420,7 +420,7 @@ nav > ul > li > a >img{
     flex-wrap: wrap;
 }
 
-.features-extra .img-container img{
+.features-extra .feature-img-container img{
     width: 70%;
     position: relative;
     overflow: hidden;
