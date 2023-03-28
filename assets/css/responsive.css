@@ -65,6 +65,7 @@ html, body {
         position: fixed;
         margin-top: 0;
         width: 100vw;
+        height: 0;
     }
 
     nav.active #nav-logo,
@@ -139,9 +140,9 @@ html, body {
         flex-direction: row;
         border-radius: calc(var(--base-border-radius) * 3);
     }
-
-
 }
+
+
 
 @media screen and (min-width: 1025px) and (max-width: 1270px) {
     .partner-card img {
