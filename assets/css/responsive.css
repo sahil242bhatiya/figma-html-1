@@ -463,7 +463,14 @@ html, body {
         max-width: 90vw;
     }
 }
-
+@media screen and (min-width: 780px) {
+    .footer-section{
+        padding-bottom: 80px !important;
+    }
+    .footer-section-container{
+        gap: 4px !important;
+    }
+}
 
 @media screen and (max-width: 1025px) {
     .footer-section{
@@ -474,7 +481,7 @@ html, body {
     }
 
     .footer-section{
-        padding-bottom: 80px;
+        padding-bottom: 10px;
     }
 
     .footer-contact{
