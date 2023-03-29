@@ -988,3 +988,8 @@ nav .social-media-list a:hover{
 .nav-link.active::before{
     width: 100%;
 }
+
+.info-card{
+    text-decoration: none !important;
+    color: white !important;
+}
