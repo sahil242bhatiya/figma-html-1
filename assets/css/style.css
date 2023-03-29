@@ -783,6 +783,11 @@ nav .social-media-list a:hover{
     color: var(--primary-color-dark);
 }
 
+.contact-us-detail-card:hover img{
+    transform: scale(1.1);
+    filter: saturate(0);
+}
+
 .contact-us-detail-card img{
     margin-bottom: 1rem;
     min-height: 34px;
