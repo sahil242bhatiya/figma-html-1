@@ -305,11 +305,11 @@ nav > ul > li > a >img{
 }
 
 nav .social-media-list a{
-    opacity: .7;
+    opacity: 1;
 }
 
 nav .social-media-list a:hover{
-    opacity: 1;
+    opacity: .7;
 }
 
 /* Navbar :: End */
@@ -809,6 +809,14 @@ nav .social-media-list a:hover{
     margin-inline: 1rem;
     height: 30px;
     cursor: pointer;
+}
+
+.contact-us-social-media-container a{
+    opacity: 1;
+}
+
+.contact-us-social-media-container a:hover{
+    opacity: 0.7;
 }
 
 

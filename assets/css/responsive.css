@@ -47,10 +47,10 @@ html, body {
         line-height: 60px !important;
     }
     nav {
-        background: white !important;
+        background: transparent !important;
         backdrop-filter: blur(0);
         width: 100vw;
-        height: 0;
+        height: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -87,8 +87,8 @@ html, body {
         position: fixed;
         margin-top: 0;
         width: 100vw;
-        background: var(--primary-color-dark) !important;
         height: 80px;
+        background: var(--primary-color-dark) !important;
     }
 
     nav.active #nav-logo,
@@ -119,6 +119,14 @@ html, body {
     .nav-scrolled .toggle-nav {
         background: var(--primary-color-dark) !important;
         border-color: rgba(255,255,255,.2);
+    }
+
+    .toggle-nav{
+        opacity: 1;
+    }
+
+    .toggle-nav:hover{
+        opacity: .7;
     }
 
     nav.active .toggle-nav .line{
